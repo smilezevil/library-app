@@ -3,3 +3,9 @@ export interface Identifiable {
 }
 
 export type FormErrors<K extends string> = Partial<Record<K, string>>;
+
+export enum NotificationType {
+  Info = 'info',
+  Success = 'success',
+  Error = 'error',
+}
