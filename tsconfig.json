@@ -10,5 +10,10 @@
     "sourceMap": true,
     "outDir": "./dist"
   },
-  "include": ["src"]
+  "include": ["src", "tests"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
