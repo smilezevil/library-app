@@ -1,0 +1,53 @@
+{
+  "name": "library-app",
+  "version": "1.0.0",
+  "description": "Клієнтський застосунок для управління бібліотекою на TypeScript (класи, інтерфейси, generics, модулі, простори імен), webpack та Bootstrap",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smilezevil/library-app.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "bootstrap",
+    "library"
+  ],
+  "author": "smilezevil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smilezevil/library-app/issues"
+  },
+  "homepage": "https://github.com/smilezevil/library-app#readme",
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.11",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "css-loader": "^7.1.5",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "html-webpack-plugin": "^5.6.8",
+    "prettier": "^3.9.8",
+    "sass": "^1.104.1",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.6.2",
+    "typescript": "^5.9.3",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  }
+}
